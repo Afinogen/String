@@ -113,7 +113,7 @@ int String::pow(int num, int pow) const
     while (pow != 0)
     {
         res *= 10;
-        pow--;
+        --pow;
     }
     return res;
 }
